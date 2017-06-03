@@ -52,6 +52,8 @@ public:
     }
 };
 
+void functiontest(int n);
+
 int main() {
     Person* personPtr[100];                 // array of pointers to person
     int n = 0;
@@ -80,4 +82,8 @@ int main() {
 
     system("pause");
     return 0;
+}
+void functiontest(int n)
+{
+    std::cout << "hello this is specifically to test GitHub connection";
 }
